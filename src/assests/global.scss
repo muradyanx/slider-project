@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Open+Sans:wght@300&display=swap');
+
+
+// @font-face {
+//     font-family: myFont;
+//     src: urlurl('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Open+Sans:wght@300&display=swap');
+//   }
+
+
+.G-container {
+    max-width : 1280px;
+    width     : 100%;
+    padding   : 0 65px;
+    margin    : 0 auto;
+  } 
+
+

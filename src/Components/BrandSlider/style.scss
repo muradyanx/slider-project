@@ -1,0 +1,33 @@
+.brands-section{ 
+    background-color: #e9eef5;
+     
+
+    .brands-position { 
+        width: 50%;
+        height: 80px;
+        margin: 0 auto;
+        margin-top: 60px;
+        padding-bottom: 220px;
+        
+       
+    .brands-image {        
+        width: 90px;
+        height: 70px;
+        overflow: hidden;
+        filter: grayscale(100%);
+        opacity: 0.5;
+        transition: 0.5ms;
+       &:hover {
+        opacity: 1;
+        filter: none;
+        transition: 0.5s;
+       }
+
+       @media screen and (max-width: 1000px) {
+        width: 70px;
+        height: 60px;
+       }
+       
+    }
+}
+}

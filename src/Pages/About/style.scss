@@ -1,0 +1,107 @@
+.about-block {
+    background-color: #59ab6e;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    color: #ffffff;
+    font-size: 19px;
+
+    .about-items { 
+    display: flex;
+    border: 1 px solid black;
+    justify-content: space-between;
+   
+    @media screen and (max-width: 800px) {
+        flex-direction: column;
+        
+    }
+
+    .about-content{
+        width: 66%;
+        line-height: 1.8;
+        font-size: 19px;
+        @media screen and (max-width: 800px) {
+            width: 100%;
+        }
+    }
+
+    .about-image {
+        width: 30%;
+        height: 370px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        @media screen and (max-width: 800px) {
+            width: 100%;
+            margin-top: 50px;
+        }
+    }
+}
+}
+
+.servises-block {
+    .servises-description {
+      width: 40%;
+      text-align: center;
+      margin: 0 auto;
+      padding-bottom: 60px;
+     
+      @media screen and (max-width: 1000px) {
+        width: 68%;
+    }
+    }
+
+    .items {
+        display: flex;
+        justify-content: space-between; 
+        margin-bottom: 110px;
+         
+
+        @media screen and (max-width: 1000px) {
+            display: flex;
+            justify-content: space-between; 
+            flex-wrap: wrap;
+            width: 85%;
+            margin: 0 auto;
+            margin-bottom: 60px;
+        }
+        .divSection {
+            width: 267px;
+            height: 200px;
+            font-family: 'Open Sans', sans-ser;
+            font-weight: bold;
+            text-align: center;
+            padding-top: 60px;
+            font-size: 18px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        
+               .div-logo {
+                color: #59ab6e;
+                font-size: 60px;
+                padding-bottom: 6px;
+              
+               }
+
+               @media screen and (max-width: 1000px) {
+                width: 350px;
+                margin-bottom: 50px;
+            }
+        
+        }
+        
+        .divSection:hover{
+            background-color: #59ab6e;
+            color: #ffffff;
+            .div-logo {
+                color: #ffffff;
+            }
+        }
+
+    
+       
+    }
+    
+
+}
+
+

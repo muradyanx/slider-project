@@ -1,0 +1,207 @@
+.nav-block {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: 'Open Sans', sans-ser;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    @media screen and (max-width: 1000px) {
+         display: flex;
+         width: 100%;
+         justify-content: space-between;
+    }
+
+    .nav-log {
+        width: 65px;
+        height: 65px;
+        color: #59ab6e;
+        font-weight: bold;
+        font-size: 48px;
+        
+    }
+
+
+    a {
+        text-decoration: none;
+    } 
+    
+    .nav-content{
+        width: 52%; 
+        font-size: 18px;
+        display: flex;
+        justify-content: space-between;
+
+        a{
+            text-decoration: none;
+            color: #212529;
+        }       
+
+        a:hover { 
+            color: #59ab6e;
+        }
+
+        @media screen and (max-width: 1000px) {
+            display: none;
+        }
+    }
+
+    .nav-logos{
+        display: flex;
+
+        .media{
+            width: 120px;
+            height: 30px;
+            display: none;
+            font-size: 30px;
+            color: gray;
+            position: absolute;
+            right: 20px;
+            @media screen and (max-width: 1000px) {
+                display: block;
+                .media{
+                    position: absolute;
+                    right:20px
+                }
+
+            }
+        }
+        .search{
+            display: none;
+        }
+
+            .media-logo {
+                display: block;
+
+                @media screen and (max-width: 1000px) {
+                    display: none;
+                }
+            }
+        
+
+        .ic-size {
+            width: 30px;
+            height: 30px;
+            font-size: 20px;
+        }
+
+        .number-style {
+            background-color: #e9eef5;
+            width: 40px;
+            text-align: center;
+            padding-top: 4px;
+            border-radius: 40%;
+            font-weight: bold;
+
+            @media screen and (max-width: 1000px) {
+                display: none;
+            }
+        }
+    }
+}
+
+.nov-block-none {
+    width: 100%;
+    height: 350px;
+    position: relative; 
+    // background-color: #212529;
+
+    .nav-log {
+        color: #59ab6e;
+        font-weight: bold;
+        font-size: 48px; 
+        position:absolute; 
+        top: 15px;    
+        left: 8px;  
+    }
+    a {
+        text-decoration: none;
+    }
+
+    .nav-content{
+        width: 52%; 
+        font-size: 18px;
+        font-family: 'Open Sans', sans-ser;
+        display: flex;
+        flex-direction: column;
+       line-height: 2;
+       position: absolute;
+       top: 90px;
+       left: 18px;
+
+        a{
+            text-decoration: none;
+            color: #212529;
+        }       
+
+        a:hover { 
+            color: #59ab6e;
+        }
+    }
+
+    .search{
+        display: none;
+    }
+
+    .search{
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 260px;
+        padding: 13px;
+        border: 1px solid #e8e8e8;
+        border-bottom-left-radius: 4px;
+        border-top-left-radius: 4px;
+        left: 17px;
+        &::placeholder {
+            font-size: 18px;
+            font-family: 'Open Sans', sans-ser;
+        }
+
+        @media screen and (max-width: 480px) {
+            width: 80%;
+            
+        }
+    }
+
+    .search-logo {
+        position: absolute;
+        top: 260px;
+        left: 580px;
+        padding: 12.5px 17px;
+        background-color: #e9ecef;
+        border: 1px solid #e8e8e8;
+        border-bottom-right-radius: 4px;
+        border-top-right-radius: 4px;
+        font-family: 'Open Sans', sans-ser;
+
+        @media screen and (max-width: 480px) {
+           display: block;
+            
+        }
+    }
+
+    .media{
+        width: 120px;
+        height: 30px;
+        font-size: 30px;
+        top: 30px;
+        position: absolute;
+        left: 660px;
+        color: gray;
+        }
+
+        .cart-logo {
+            position: absolute;
+            top: 272px;
+            left: 644px;
+            font-size: 22px;
+        }
+        .heart-logo {
+            position: absolute;
+            top: 272px;
+            left: 678px;
+            font-size: 22px;
+        }
+}

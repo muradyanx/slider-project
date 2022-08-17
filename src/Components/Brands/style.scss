@@ -1,0 +1,14 @@
+.brands-section {
+    background-color: #e9eef5;
+
+    .brands-description {
+        width: 40%;
+        text-align: center;        
+        padding-bottom: 40px;
+        margin: 0 auto; 
+        @media screen and (max-width: 1000px) {
+            width: 68%; 
+            margin: 0 auto;
+           }
+    }
+}
